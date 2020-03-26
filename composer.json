@@ -14,14 +14,8 @@
             "homepage": "https://github.com/whiskyjs/"
         }
     ],
-    "repositories": [
-        {
-            "type": "github",
-            "url": "https://github.com/thephpleague/omnipay-common"
-        }
-    ],
     "require": {
-        "omnipay/common": "master",
+        "omnipay/common": "^3.0",
         "ext-json": "*",
         "php-http/guzzle6-adapter": "^2.0"
     },
