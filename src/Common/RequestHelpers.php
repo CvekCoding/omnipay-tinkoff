@@ -1,9 +1,9 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff\Common;
+namespace Omnipay\Tinkoff\Common;
 
-use Omnipay\Common\Message\AbstractRequest;
 use Omnipay\Common\Exception\RuntimeException;
+use Omnipay\Common\Message\AbstractRequest;
 
 trait RequestHelpers
 {

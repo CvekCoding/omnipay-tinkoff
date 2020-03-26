@@ -1,6 +1,6 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff;
+namespace Omnipay\Tinkoff;
 
 use JsonSerializable;
 use Omnipay\Common\ParametersTrait;

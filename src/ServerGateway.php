@@ -1,11 +1,11 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff;
+namespace Omnipay\Tinkoff;
 
-use whiskyjs\Omnipay\Tinkoff\Message\Notification;
-use whiskyjs\Omnipay\Tinkoff\Message\PurchaseNotification;
 use Omnipay\Common\AbstractGateway;
 use Omnipay\Common\Message\NotificationInterface;
+use Omnipay\Tinkoff\Message\Notification;
+use Omnipay\Tinkoff\Message\PurchaseNotification;
 
 /**
  * Tinkoff Gateway

@@ -1,10 +1,10 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff;
+namespace Omnipay\Tinkoff;
 
 use Omnipay\Common\AbstractGateway;
 use Omnipay\Common\Message\AbstractRequest;
-use whiskyjs\Omnipay\Tinkoff\Message\PurchaseRequest;
+use Omnipay\Tinkoff\Message\PurchaseRequest;
 
 /**
  * Tinkoff Gateway

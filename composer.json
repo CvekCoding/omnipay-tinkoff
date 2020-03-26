@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "whiskyjs\\Omnipay\\Tinkoff\\": "src"
+            "Omnipay\\Tinkoff\\": "src"
         }
     },
     "scripts": {

@@ -1,10 +1,10 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff\Message;
+namespace Omnipay\Tinkoff\Message;
 
 use DateTime;
-use whiskyjs\Omnipay\Tinkoff\Common\RequestHelpers;
-use whiskyjs\Omnipay\Tinkoff\Receipt;
+use Omnipay\Tinkoff\Common\RequestHelpers;
+use Omnipay\Tinkoff\Receipt;
 
 /**
  * Purchase Request

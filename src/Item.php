@@ -1,6 +1,6 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff;
+namespace Omnipay\Tinkoff;
 
 use Omnipay\Common\Item as OmniItem;
 

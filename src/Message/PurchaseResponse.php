@@ -1,6 +1,6 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff\Message;
+namespace Omnipay\Tinkoff\Message;
 
 use Omnipay\Common\Message\RedirectResponseInterface;
 

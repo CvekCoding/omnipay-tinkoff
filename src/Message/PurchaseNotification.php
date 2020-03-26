@@ -1,12 +1,12 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff\Message;
+namespace Omnipay\Tinkoff\Message;
 
 use Omnipay\Common\Exception\InvalidRequestException;
 use Omnipay\Common\Exception\InvalidResponseException;
 use Omnipay\Common\Http\ClientInterface;
-use Symfony\Component\HttpFoundation\Request as HttpRequest;
 use Omnipay\Common\Message\NotificationInterface;
+use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
 /**
  * Purchase Notification

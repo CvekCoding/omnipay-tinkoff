@@ -1,6 +1,6 @@
 <?php
 
-namespace whiskyjs\Omnipay\Tinkoff\Common;
+namespace Omnipay\Tinkoff\Common;
 
 interface RequestHelpersInterface
 {
