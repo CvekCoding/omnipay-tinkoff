@@ -331,6 +331,6 @@ class PurchaseRequest extends Request
      */
     protected function getResponseClass()
     {
-        return "whiskyjs\Omnipay\Tinkoff\Message\PurchaseResponse";
+        return PurchaseResponse::class;
     }
 }

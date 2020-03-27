@@ -3,7 +3,9 @@
     "description": "Tinkoff.Payments gateway for Omnipay",
     "keywords": [
         "omnipay",
-        "tinkoff"
+        "tinkoff",
+        "payum",
+        "payum-omnipay bridge"
     ],
     "homepage": "https://github.com/whiskyjs/omnipay-tinkoff/",
     "license": "MIT",

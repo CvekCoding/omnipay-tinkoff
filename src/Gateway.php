@@ -11,7 +11,6 @@ use Omnipay\Tinkoff\Message\PurchaseRequest;
  * @method \Omnipay\Common\Message\RequestInterface authorize(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface completeAuthorize(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface capture(array $options = array())
- * @method \Omnipay\Common\Message\RequestInterface completePurchase(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface refund(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface void(array $options = array())
  * @method \Omnipay\Common\Message\RequestInterface createCard(array $options = array())
@@ -125,5 +124,16 @@ class Gateway extends AbstractGateway
     public function purchase(array $options = [])
     {
         return $this->createRequest(PurchaseRequest::class, $options);
+    }
+
+    /**
+     * Order status request
+     *
+     * @param array $options
+     * @return RequestInterface
+     */
+    public function completePurchase(array $options = []): RequestInterface
+    {
+        return $this->createRequest(OrderStatusRequest::class, $options);
     }
 }
