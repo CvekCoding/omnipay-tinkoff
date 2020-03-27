@@ -4,7 +4,9 @@ namespace Omnipay\Tinkoff;
 
 use Omnipay\Common\AbstractGateway;
 use Omnipay\Common\Message\AbstractRequest;
+use Omnipay\Common\Message\RequestInterface;
 use Omnipay\Tinkoff\Message\PurchaseRequest;
+use Omnipay\Tinkoff\Message\OrderStatusRequest;
 
 /**
  * Tinkoff Gateway
@@ -130,9 +132,8 @@ class Gateway extends AbstractGateway
      * Order status request
      *
      * @param array $options
-     * @return RequestInterface
      */
-    public function completePurchase(array $options = []): RequestInterface
+    public function completePurchase(array $options = [])
     {
         return $this->createRequest(OrderStatusRequest::class, $options);
     }
