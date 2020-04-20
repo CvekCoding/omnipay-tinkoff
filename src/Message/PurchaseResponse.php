@@ -7,13 +7,11 @@ use Omnipay\Common\Message\RedirectResponseInterface;
 class PurchaseResponse extends Response implements RedirectResponseInterface
 {
     /**
-     * Request is never successful.
-     *
      * @return bool
      */
     public function isSuccessful()
     {
-        return false;
+        return $this->data['Success'] ?? false;
     }
 
     /**
