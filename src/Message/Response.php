@@ -20,7 +20,7 @@ class Response extends AbstractResponse
 
     public function isSuccessful()
     {
-        return $this->data['Success'];
+        return $this->data['Success'] && 'REJECTED' !== $this->data['Status'];
     }
 
     public function getTransactionId()
