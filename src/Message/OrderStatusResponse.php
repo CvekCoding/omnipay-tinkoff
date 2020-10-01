@@ -21,7 +21,7 @@ final class OrderStatusResponse extends Response
 
     public function isSuccess()
     {
-        return $this->data['Success'];
+        return $this->data['Success'] && 'CONFIRMED' === $this->data['Status'];
     }
 
     public function getStatus()
